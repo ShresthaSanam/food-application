@@ -1,0 +1,42 @@
+.button{
+    background-color: lightblue;
+    border: none;
+    padding: 15px;
+    min-height: 20px;
+    min-width: 100px;
+    font-size: medium;     
+}
+
+#buttons li {
+    float: left;
+    list-style: none;
+    text-align: center;
+    background-color:darkorange;
+    margin-right: 30px;
+    width: 150px;
+    line-height: 60px;
+  }
+
+  #buttons li a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    
+  }
+
+  #buttons li a:hover{
+    background-color:green;
+  }
+
+footer{
+    text-align: center;
+    position: relative;
+    top: 50%;
+    font-family: cursive;
+}
+
+
+
+
+
+

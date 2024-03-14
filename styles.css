@@ -1,0 +1,84 @@
+html {
+    background-color:antiquewhite;
+  }
+
+  #one {
+    background-image: url('./Images/break.jpg');
+    background-size: cover;
+    margin-top: 40px;
+    padding-bottom: 1rem;
+  }
+
+  #two {
+    background-image: url('./Images/lunch.jpg');
+    background-size: contain;
+    margin-top: 50px;
+    padding-bottom: 1rem;
+  }
+
+  #three {
+    background-image: url('./Images/snacks.jpg');
+    background-size: cover;
+    margin-top: 50px;
+    padding-bottom: 1rem;
+  }
+
+  div.mango {
+    margin-right: 500px;
+    margin-top: 50px;
+    margin-left: 100px;
+  }
+
+  h2 {
+    color: darkgreen;
+    font-size: x-large;
+    font-family: cursive;
+  }
+
+h3 {
+   color: blue;
+}
+
+div>a{
+    color: blue;
+    font-family: cursive;
+
+}
+
+#five{
+ text-align: center;  
+ font-family: cursive;
+ color: brown; 
+}
+
+
+div~a{
+    color:black;
+}
+
+a:visited{
+    color:green;
+
+}
+
+h1:hover, h2:hover{
+    color: red;
+    transition: 0.5s;    
+}
+
+#four a:hover{
+    background-color:red;
+    
+    
+}
+#five:hover{
+    background-color:yellow;
+    transition: 0.7s;
+}
+
+
+
+
+
+
+
